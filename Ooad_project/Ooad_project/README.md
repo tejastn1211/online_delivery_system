@@ -1,14 +1,4 @@
  # Online Delivery System
-![system requirements](https://img.shields.io/badge/g%2B%2B%20Version-7.4.0-red)
-![system requirements](https://img.shields.io/badge/Python-3.6.8-orange)
-![system requirements](https://img.shields.io/badge/OS-Ubuntu%2018.04.1-yellow)
-![OOAD Project](https://img.shields.io/badge/Project-OOAD-yellowgreen)
-![C++](https://img.shields.io/badge/Language-C%2B%2B-orange)
-![build passing](https://api.travis-ci.org/klugjo/hexo-autolinker.svg?branch=master)
-![IITJ](https://img.shields.io/badge/Institute-IITJ-yellow)
-![2022](https://img.shields.io/badge/Batch-2022-blue)
-![Status](https://img.shields.io/badge/Status-Completed-pink)
-
 This project was developed as a course project under **_Dr. Nandhi Kesavan**, instructor, **_Object Oriented Analysis and Design_** Course. This project encouraged us to expand our horizon on understanding and applying object oriented analysis and design in real life applications. It also helped us in understanding various complexities and challanges involved in software development.
 ## Problem Statement
 The _Community Centre_ of IIT Jodhpur is far for a walk from the student hostels and faculty residence. This makes it very difficult to go and shop for daily needs especially in the scorching heat of Rajasthan. 
