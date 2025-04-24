@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>OOAD System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Welcome to the OOAD System</h1>
+    <div class="tabs">
+        <button onclick="showTab('customer')">Customer</button>
+        <button onclick="showTab('shopkeeper')">Shopkeeper</button>
+        <button onclick="showTab('moderator')">Moderator</button>
+    </div>
+
+    <div id="customer" class="tab-content">
+        <h2>Customer Portal</h2>
+        <button onclick="viewCustomer()">View Items</button>
+        <pre id="customer-output"></pre>
+    </div>
+
+    <div id="shopkeeper" class="tab-content" style="display: none;">
+        <h2>Shopkeeper Portal</h2>
+        <input type="text" id="item-name" placeholder="Item Name">
+        <button onclick="addItem()">Add Item</button>
+        <pre id="shopkeeper-output"></pre>
+    </div>
+
+    <div id="moderator" class="tab-content" style="display: none;">
+        <h2>Moderator Portal</h2>
+        <button onclick="listUsers()">List Users</button>
+        <pre id="moderator-output"></pre>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
